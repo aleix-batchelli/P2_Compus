@@ -1,0 +1,843 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4321 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"76 C:\Users\LEX\Desktop\P2.X\LcTLCD.c
+[v _LcClear LcClear `(v  1 e 1 0 ]
+"90
+[v _LcCursorOff LcCursorOff `(v  1 e 1 0 ]
+"97
+[v _LcGotoXY LcGotoXY `(v  1 e 1 0 ]
+"124
+[v _LcPutChar LcPutChar `(v  1 e 1 0 ]
+"156
+[v _printString printString `(v  1 e 1 0 ]
+"198
+[v _Espera Espera `(v  1 e 1 0 ]
+"206
+[v _CantaPartAlta CantaPartAlta `(v  1 e 1 0 ]
+"213
+[v _CantaPartBaixa CantaPartBaixa `(v  1 e 1 0 ]
+"220
+[v _CantaIR CantaIR `(v  1 e 1 0 ]
+"236
+[v _CantaData CantaData `(v  1 e 1 0 ]
+"252
+[v _WaitForBusy WaitForBusy `(v  1 e 1 0 ]
+"271
+[v _EscriuPrimeraOrdre EscriuPrimeraOrdre `(v  1 e 1 0 ]
+"287
+[v _LcInit LcInit `(v  1 e 1 0 ]
+"21 C:\Users\LEX\Desktop\P2.X\main.c
+[v _initPorts initPorts `(v  1 e 1 0 ]
+"41
+[v _RSI RSI `IIH(v  1 e 1 0 ]
+"47
+[v _main main `(v  1 e 1 0 ]
+"13 C:\Users\LEX\Desktop\P2.X\TAD_JOYSTICK.C
+[v _init_ADC init_ADC `(v  1 e 1 0 ]
+"24
+[v _getJoyState getJoyState `(uc  1 e 1 0 ]
+"43 C:\Users\LEX\Desktop\P2.X\TAD_MENU.C
+[v _printMarquesina printMarquesina `(v  1 e 1 0 ]
+"62
+[v _init_Menu init_Menu `(v  1 e 1 0 ]
+"66
+[v _clearMessage clearMessage `(uc  1 e 1 0 ]
+"8 C:\Users\LEX\Desktop\P2.X\TAD_SPEAKER.c
+[v _init_SPK init_SPK `(v  1 e 1 0 ]
+"19 C:\Users\LEX\Desktop\P2.X\TAD_TECLAT.c
+[v _keyboardEnable keyboardEnable `(v  1 e 1 0 ]
+"24
+[v _keyboardDisable keyboardDisable `(v  1 e 1 0 ]
+"28
+[v _TeclaPremuda TeclaPremuda `(uc  1 e 1 0 ]
+"32
+[v _getDigitNumber getDigitNumber `(uc  1 e 1 0 ]
+"36
+[v _resetDigitNumber resetDigitNumber `(v  1 e 1 0 ]
+"40
+[v _init_KEYB init_KEYB `(v  1 e 1 0 ]
+"45
+[v _rotarFila rotarFila `(v  1 e 1 0 ]
+"53
+[v _keyFlag keyFlag `(uc  1 e 1 0 ]
+"57
+[v _getKeyCode getKeyCode `(uc  1 e 1 0 ]
+"61
+[v _getTecla getTecla `(uc  1 e 1 0 ]
+"65
+[v _getKey getKey `(uc  1 e 1 0 ]
+"83
+[v _hashtagSelected hashtagSelected `(uc  1 e 1 0 ]
+"87
+[v _decode decode `(uc  1 e 1 0 ]
+"26 C:\Users\LEX\Desktop\P2.X\TAD_TIMER.C
+[v _RSI_Timer0 RSI_Timer0 `(v  1 e 1 0 ]
+"34
+[v _TI_Init TI_Init `(v  1 e 1 0 ]
+"45
+[v _TI_NewTimer TI_NewTimer `(uc  1 e 1 0 ]
+"55
+[v _TI_ResetTics TI_ResetTics `(v  1 e 1 0 ]
+"60
+[v _TI_GetTics TI_GetTics `(ul  1 e 4 0 ]
+"19 C:\Users\LEX\Desktop\P2.X\TAD_UART.C
+[v _sendByte sendByte `(uc  1 e 1 0 ]
+"60
+[v _getData getData `(uc  1 e 1 0 ]
+"64
+[v _getFlag getFlag `(uc  1 e 1 0 ]
+"68
+[v _clearFlag clearFlag `(v  1 e 1 0 ]
+"73
+[v _TAD_UART TAD_UART `(v  1 e 1 0 ]
+"125
+[v _init_UART init_UART `(v  1 e 1 0 ]
+"15 C:\Users\LEX\Desktop\P2.X\TAD_WIFI.C
+[v _init_WIFI init_WIFI `(v  1 e 1 0 ]
+"30
+[v _transmit transmit `(v  1 e 1 0 ]
+"39
+[v _transmitString transmitString `(uc  1 e 1 0 ]
+"16 C:\Users\LEX\Desktop\P2.X\TAD_WORK.c
+[v _callFunc callFunc `(v  1 e 1 0 ]
+"20
+[v _cipStart cipStart `(uc  1 e 1 0 ]
+"34
+[v _setMessage setMessage `(uc  1 e 1 0 ]
+"284 C:\Program Files\Microchip\xc8\v2.45\pic\include\proc\pic18f4321.h
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+[s S644 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"508
+[s S684 . 1 `uc 1 T1OSO 1 0 :1:0 
+`uc 1 T1OSI 1 0 :1:1 
+`uc 1 CCP1 1 0 :1:2 
+`uc 1 SCK 1 0 :1:3 
+`uc 1 SDI 1 0 :1:4 
+`uc 1 SDO 1 0 :1:5 
+`uc 1 TX 1 0 :1:6 
+`uc 1 RX 1 0 :1:7 
+]
+[s S693 . 1 `uc 1 T13CKI 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 P1A 1 0 :1:2 
+`uc 1 SCL 1 0 :1:3 
+`uc 1 SDA 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CK 1 0 :1:6 
+`uc 1 DT 1 0 :1:7 
+]
+[s S702 . 1 `uc 1 T1CKI 1 0 :1:0 
+]
+[s S704 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+`uc 1 PA1 1 0 :1:2 
+]
+[u S708 . 1 `S644 1 . 1 0 `S684 1 . 1 0 `S693 1 . 1 0 `S702 1 . 1 0 `S704 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES708  1 e 1 @3970 ]
+[s S38 . 1 `uc 1 RE0 1 0 :1:0 
+`uc 1 RE1 1 0 :1:1 
+`uc 1 RE2 1 0 :1:2 
+`uc 1 RE3 1 0 :1:3 
+]
+"843
+[s S1282 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 CS 1 0 :1:2 
+`uc 1 MCLR 1 0 :1:3 
+]
+[s S1287 . 1 `uc 1 NOT_RD 1 0 :1:0 
+]
+[s S1289 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_WR 1 0 :1:1 
+]
+[s S1292 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_CS 1 0 :1:2 
+]
+[s S1295 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_MCLR 1 0 :1:3 
+]
+[s S1298 . 1 `uc 1 nRD 1 0 :1:0 
+`uc 1 nWR 1 0 :1:1 
+`uc 1 nCS 1 0 :1:2 
+`uc 1 nMCLR 1 0 :1:3 
+]
+[s S1303 . 1 `uc 1 AN5 1 0 :1:0 
+`uc 1 AN6 1 0 :1:1 
+`uc 1 AN7 1 0 :1:2 
+`uc 1 VPP 1 0 :1:3 
+]
+[s S1308 . 1 `uc 1 PD2 1 0 :1:0 
+`uc 1 PC2 1 0 :1:1 
+`uc 1 CCP10 1 0 :1:2 
+`uc 1 CCP9E 1 0 :1:3 
+]
+[s S1313 . 1 `uc 1 RDE 1 0 :1:0 
+`uc 1 WRE 1 0 :1:1 
+`uc 1 PB2 1 0 :1:2 
+`uc 1 PC3E 1 0 :1:3 
+]
+[u S1318 . 1 `S38 1 . 1 0 `S1282 1 . 1 0 `S1287 1 . 1 0 `S1289 1 . 1 0 `S1292 1 . 1 0 `S1295 1 . 1 0 `S1298 1 . 1 0 `S1303 1 . 1 0 `S1308 1 . 1 0 `S1313 1 . 1 0 ]
+[v _PORTEbits PORTEbits `VES1318  1 e 1 @3972 ]
+"988
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+[s S555 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"1015
+[s S564 . 1 `uc 1 LA0 1 0 :1:0 
+`uc 1 LA1 1 0 :1:1 
+`uc 1 LA2 1 0 :1:2 
+`uc 1 LA3 1 0 :1:3 
+`uc 1 LA4 1 0 :1:4 
+`uc 1 LA5 1 0 :1:5 
+`uc 1 LA6 1 0 :1:6 
+`uc 1 LA7 1 0 :1:7 
+]
+[u S573 . 1 `S555 1 . 1 0 `S564 1 . 1 0 ]
+[v _LATAbits LATAbits `VES573  1 e 1 @3977 ]
+"1100
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+[s S124 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"1127
+[s S133 . 1 `uc 1 LB0 1 0 :1:0 
+`uc 1 LB1 1 0 :1:1 
+`uc 1 LB2 1 0 :1:2 
+`uc 1 LB3 1 0 :1:3 
+`uc 1 LB4 1 0 :1:4 
+`uc 1 LB5 1 0 :1:5 
+`uc 1 LB6 1 0 :1:6 
+`uc 1 LB7 1 0 :1:7 
+]
+[u S142 . 1 `S124 1 . 1 0 `S133 1 . 1 0 ]
+[v _LATBbits LATBbits `VES142  1 e 1 @3978 ]
+[s S595 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"1239
+[s S604 . 1 `uc 1 LC0 1 0 :1:0 
+`uc 1 LC1 1 0 :1:1 
+`uc 1 LC2 1 0 :1:2 
+`uc 1 LC3 1 0 :1:3 
+`uc 1 LC4 1 0 :1:4 
+`uc 1 LC5 1 0 :1:5 
+`uc 1 LC6 1 0 :1:6 
+`uc 1 LC7 1 0 :1:7 
+]
+[u S613 . 1 `S595 1 . 1 0 `S604 1 . 1 0 ]
+[v _LATCbits LATCbits `VES613  1 e 1 @3979 ]
+"1324
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+[s S204 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"1351
+[s S213 . 1 `uc 1 LD0 1 0 :1:0 
+`uc 1 LD1 1 0 :1:1 
+`uc 1 LD2 1 0 :1:2 
+`uc 1 LD3 1 0 :1:3 
+`uc 1 LD4 1 0 :1:4 
+`uc 1 LD5 1 0 :1:5 
+`uc 1 LD6 1 0 :1:6 
+`uc 1 LD7 1 0 :1:7 
+]
+[u S222 . 1 `S204 1 . 1 0 `S213 1 . 1 0 ]
+[v _LATDbits LATDbits `VES222  1 e 1 @3980 ]
+[s S104 . 1 `uc 1 LATE0 1 0 :1:0 
+`uc 1 LATE1 1 0 :1:1 
+`uc 1 LATE2 1 0 :1:2 
+]
+"1453
+[s S108 . 1 `uc 1 LE0 1 0 :1:0 
+`uc 1 LE1 1 0 :1:1 
+`uc 1 LE2 1 0 :1:2 
+]
+[u S112 . 1 `S104 1 . 1 0 `S108 1 . 1 0 ]
+[v _LATEbits LATEbits `VES112  1 e 1 @3981 ]
+"1488
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+[s S164 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"1520
+[s S173 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+[u S182 . 1 `S164 1 . 1 0 `S173 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES182  1 e 1 @3986 ]
+"1710
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+[s S62 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1742
+[s S71 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+[u S80 . 1 `S62 1 . 1 0 `S71 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES80  1 e 1 @3987 ]
+"1932
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+[s S635 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1964
+[u S653 . 1 `S635 1 . 1 0 `S644 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES653  1 e 1 @3988 ]
+"2154
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"2376
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+[s S29 . 1 `uc 1 TRISE0 1 0 :1:0 
+`uc 1 TRISE1 1 0 :1:1 
+`uc 1 TRISE2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 PSPMODE 1 0 :1:4 
+`uc 1 IBOV 1 0 :1:5 
+`uc 1 OBF 1 0 :1:6 
+`uc 1 IBF 1 0 :1:7 
+]
+"2404
+[u S43 . 1 `S29 1 . 1 0 `S38 1 . 1 0 ]
+[v _TRISEbits TRISEbits `VES43  1 e 1 @3990 ]
+[s S1184 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+"2704
+[s S1193 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+]
+[u S1197 . 1 `S1184 1 . 1 0 `S1193 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES1197  1 e 1 @3998 ]
+[s S1030 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"3162
+[s S1039 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 ADEN 1 0 :1:3 
+]
+[s S1042 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[s S1045 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S1048 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S1051 . 1 `uc 1 RCD8 1 0 :1:0 
+]
+[u S1053 . 1 `S1030 1 . 1 0 `S1039 1 . 1 0 `S1042 1 . 1 0 `S1045 1 . 1 0 `S1048 1 . 1 0 `S1051 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES1053  1 e 1 @4011 ]
+[s S1084 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"3370
+[s S1093 . 1 `uc 1 TX9D1 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+`uc 1 BRGH1 1 0 :1:2 
+`uc 1 SENDB1 1 0 :1:3 
+`uc 1 SYNC1 1 0 :1:4 
+`uc 1 TXEN1 1 0 :1:5 
+`uc 1 TX91 1 0 :1:6 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[s S1102 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[s S1105 . 1 `uc 1 TXD8 1 0 :1:0 
+]
+[u S1107 . 1 `S1084 1 . 1 0 `S1093 1 . 1 0 `S1102 1 . 1 0 `S1105 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES1107  1 e 1 @4012 ]
+"3587
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"3599
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"3611
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"3623
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @4016 ]
+[s S1136 . 1 `uc 1 ABDEN 1 0 :1:0 
+`uc 1 WUE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG16 1 0 :1:3 
+`uc 1 TXCKP 1 0 :1:4 
+`uc 1 RXDTP 1 0 :1:5 
+`uc 1 RCIDL 1 0 :1:6 
+`uc 1 ABDOVF 1 0 :1:7 
+]
+"4188
+[s S1145 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SCKP 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 RCMT 1 0 :1:6 
+]
+[s S1150 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RXCKP 1 0 :1:5 
+]
+[s S1153 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 W4E 1 0 :1:1 
+]
+[u S1156 . 1 `S1136 1 . 1 0 `S1145 1 . 1 0 `S1150 1 . 1 0 `S1153 1 . 1 0 ]
+[v _BAUDCONbits BAUDCONbits `VES1156  1 e 1 @4024 ]
+"4645
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
+"4716
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"4801
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+[s S880 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"4845
+[s S883 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+]
+[s S887 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+]
+[s S894 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+]
+[s S897 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+[s S900 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S903 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+[s S906 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+[u S909 . 1 `S880 1 . 1 0 `S883 1 . 1 0 `S887 1 . 1 0 `S894 1 . 1 0 `S897 1 . 1 0 `S900 1 . 1 0 `S903 1 . 1 0 `S906 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES909  1 e 1 @4034 ]
+"4934
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+"6183
+[v _T0CON T0CON `VEuc  1 e 1 @4053 ]
+"6260
+[v _TMR0 TMR0 `VEus  1 e 2 @4054 ]
+[s S244 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"6733
+[s S253 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S262 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S266 . 1 `S244 1 . 1 0 `S253 1 . 1 0 `S262 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES266  1 e 1 @4082 ]
+"8513
+[v _TMR0IF TMR0IF `VEb  1 e 0 @32658 ]
+"44 C:\Users\LEX\Desktop\P2.X\LcTLCD.c
+[v _Rows Rows `uc  1 s 1 Rows ]
+[v _Columns Columns `uc  1 s 1 Columns ]
+"45
+[v _RowAct RowAct `uc  1 s 1 RowAct ]
+[v _ColumnAct ColumnAct `uc  1 s 1 ColumnAct ]
+"46
+[v _Timer Timer `uc  1 s 1 Timer ]
+"152
+[v _print print `*.31uc  1 s 1 print ]
+"153
+[v _i@LcTLCD$F787 i `uc  1 s 1 i ]
+"154
+[v _enable@LcTLCD$F788 enable `uc  1 s 1 enable ]
+"11 C:\Users\LEX\Desktop\P2.X\TAD_JOYSTICK.C
+[v _lastState lastState `uc  1 s 1 lastState ]
+"16 C:\Users\LEX\Desktop\P2.X\TAD_MENU.C
+[v _t@TAD_MENU$F958 t `uc  1 s 1 t ]
+"17
+[v _menus menus `[7][23]uc  1 s 161 menus ]
+"28
+[v _userFlag userFlag `uc  1 s 1 userFlag ]
+"29
+[v _bye bye `[13]uc  1 s 13 bye ]
+"30
+[v _menuTop menuTop `uc  1 s 1 menuTop ]
+"31
+[v _menuBottom menuBottom `uc  1 s 1 menuBottom ]
+"32
+[v _index index `uc  1 s 1 index ]
+"33
+[v _i@TAD_MENU$F966 i `uc  1 s 1 i ]
+"34
+[v _offset offset `uc  1 s 1 offset ]
+"36
+[v _count count `uc  1 s 1 count ]
+"37
+[v _name name `[4]uc  1 s 4 name ]
+"38
+[v _message message `[16]uc  1 s 16 message ]
+"40
+[v _remotePort remotePort `[4]uc  1 s 4 remotePort ]
+"41
+[v _localPort localPort `[4]uc  1 s 4 localPort ]
+"6 C:\Users\LEX\Desktop\P2.X\TAD_SPEAKER.c
+[v _t@TAD_SPEAKER$F528 t `uc  1 s 1 t ]
+"13 C:\Users\LEX\Desktop\P2.X\TAD_TECLAT.c
+[v _tecla tecla `uc  1 s 1 tecla ]
+[v _i i `uc  1 s 1 i ]
+"14
+[v _teclaPremuda teclaPremuda `uc  1 s 1 teclaPremuda ]
+"15
+[v _digitNumber digitNumber `uc  1 s 1 digitNumber ]
+"16
+[v _enable enable `uc  1 s 1 enable ]
+"17
+[v _t t `uc  1 e 1 0 ]
+[v _t1 t1 `uc  1 e 1 0 ]
+[s S429 Timer 5 `ul 1 TicsInicials 4 0 `uc 1 Busy 1 4 ]
+"22 C:\Users\LEX\Desktop\P2.X\TAD_TIMER.C
+[v _Timers Timers `[15]S429  1 s 75 Timers ]
+"24
+[v _Tics Tics `VEul  1 s 4 Tics ]
+"10 C:\Users\LEX\Desktop\P2.X\TAD_UART.C
+[v _tx tx `uc  1 s 1 tx ]
+"11
+[v _rc rc `uc  1 s 1 rc ]
+"12
+[v _rc_data rc_data `uc  1 s 1 rc_data ]
+"13
+[v _flags flags `uc  1 s 1 flags ]
+"14
+[v _flag flag `uc  1 s 1 flag ]
+"13 C:\Users\LEX\Desktop\P2.X\TAD_WIFI.C
+[v _t@TAD_WIFI$F1219 t `uc  1 s 1 t ]
+"5 C:\Users\LEX\Desktop\P2.X\TAD_WORK.c
+[v _func func `uc  1 s 1 func ]
+"6
+[v _localPort@TAD_WORK$F1400 localPort `*.39uc  1 s 2 localPort ]
+"7
+[v _remotePort@TAD_WORK$F1401 remotePort `*.39uc  1 s 2 remotePort ]
+"8
+[v _instruction instruction `[47]uc  1 s 47 instruction ]
+"9
+[v _message@TAD_WORK$F1403 message `[16]uc  1 s 16 message ]
+"47 C:\Users\LEX\Desktop\P2.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"78
+} 0
+"19 C:\Users\LEX\Desktop\P2.X\TAD_UART.C
+[v _sendByte sendByte `(uc  1 e 1 0 ]
+{
+[v sendByte@_byte _byte `uc  1 a 1 wreg ]
+[v sendByte@_byte _byte `uc  1 a 1 wreg ]
+"20
+[v sendByte@i i `uc  1 s 1 i ]
+"21
+[v sendByte@aux aux `uc  1 s 1 aux ]
+"23
+[v sendByte@_byte _byte `uc  1 a 1 1 ]
+"44
+} 0
+"15 C:\Users\LEX\Desktop\P2.X\TAD_WIFI.C
+[v _init_WIFI init_WIFI `(v  1 e 1 0 ]
+{
+"28
+} 0
+"125 C:\Users\LEX\Desktop\P2.X\TAD_UART.C
+[v _init_UART init_UART `(v  1 e 1 0 ]
+{
+"128
+} 0
+"8 C:\Users\LEX\Desktop\P2.X\TAD_SPEAKER.c
+[v _init_SPK init_SPK `(v  1 e 1 0 ]
+{
+"12
+} 0
+"62 C:\Users\LEX\Desktop\P2.X\TAD_MENU.C
+[v _init_Menu init_Menu `(v  1 e 1 0 ]
+{
+"64
+} 0
+"40 C:\Users\LEX\Desktop\P2.X\TAD_TECLAT.c
+[v _init_KEYB init_KEYB `(v  1 e 1 0 ]
+{
+"43
+} 0
+"13 C:\Users\LEX\Desktop\P2.X\TAD_JOYSTICK.C
+[v _init_ADC init_ADC `(v  1 e 1 0 ]
+{
+"22
+} 0
+"21 C:\Users\LEX\Desktop\P2.X\main.c
+[v _initPorts initPorts `(v  1 e 1 0 ]
+{
+"39
+} 0
+"60 C:\Users\LEX\Desktop\P2.X\TAD_UART.C
+[v _getData getData `(uc  1 e 1 0 ]
+{
+"62
+} 0
+"34 C:\Users\LEX\Desktop\P2.X\TAD_TIMER.C
+[v _TI_Init TI_Init `(v  1 e 1 0 ]
+{
+"35
+[v TI_Init@counter counter `uc  1 a 1 0 ]
+"43
+} 0
+"73 C:\Users\LEX\Desktop\P2.X\TAD_UART.C
+[v _TAD_UART TAD_UART `(v  1 e 1 0 ]
+{
+"74
+[v TAD_UART@state state `uc  1 s 1 state ]
+"75
+[v TAD_UART@i i `uc  1 s 1 i ]
+"122
+} 0
+"287 C:\Users\LEX\Desktop\P2.X\LcTLCD.c
+[v _LcInit LcInit `(v  1 e 1 0 ]
+{
+[v LcInit@rows rows `uc  1 a 1 wreg ]
+"293
+[v LcInit@i i `uc  1 a 1 21 ]
+"287
+[v LcInit@rows rows `uc  1 a 1 wreg ]
+[v LcInit@columns columns `uc  1 p 1 19 ]
+"294
+[v LcInit@rows rows `uc  1 a 1 20 ]
+"327
+} 0
+"45 C:\Users\LEX\Desktop\P2.X\TAD_TIMER.C
+[v _TI_NewTimer TI_NewTimer `(uc  1 e 1 0 ]
+{
+"46
+[v TI_NewTimer@Comptador Comptador `uc  1 a 1 2 ]
+"45
+[v TI_NewTimer@TimerHandle TimerHandle `*.30uc  1 p 1 0 ]
+"53
+} 0
+"271 C:\Users\LEX\Desktop\P2.X\LcTLCD.c
+[v _EscriuPrimeraOrdre EscriuPrimeraOrdre `(v  1 e 1 0 ]
+{
+[v EscriuPrimeraOrdre@ordre ordre `uc  1 a 1 wreg ]
+[v EscriuPrimeraOrdre@ordre ordre `uc  1 a 1 wreg ]
+"273
+[v EscriuPrimeraOrdre@ordre ordre `uc  1 a 1 1 ]
+"280
+} 0
+"97
+[v _LcGotoXY LcGotoXY `(v  1 e 1 0 ]
+{
+[v LcGotoXY@Column Column `uc  1 a 1 wreg ]
+"101
+[v LcGotoXY@Fisics Fisics `uc  1 a 1 19 ]
+"97
+[v LcGotoXY@Column Column `uc  1 a 1 wreg ]
+[v LcGotoXY@Row Row `uc  1 p 1 14 ]
+[v LcGotoXY@Column Column `uc  1 a 1 20 ]
+"122
+} 0
+"90
+[v _LcCursorOff LcCursorOff `(v  1 e 1 0 ]
+{
+"95
+} 0
+"76
+[v _LcClear LcClear `(v  1 e 1 0 ]
+{
+"81
+} 0
+"252
+[v _WaitForBusy WaitForBusy `(v  1 e 1 0 ]
+{
+"253
+[v WaitForBusy@Busy Busy `uc  1 a 1 13 ]
+"269
+} 0
+"198
+[v _Espera Espera `(v  1 e 1 0 ]
+{
+[v Espera@Timer Timer `uc  1 a 1 wreg ]
+[v Espera@Timer Timer `uc  1 a 1 wreg ]
+[v Espera@ms ms `uc  1 p 1 13 ]
+[v Espera@Timer Timer `uc  1 a 1 18 ]
+"204
+} 0
+"55 C:\Users\LEX\Desktop\P2.X\TAD_TIMER.C
+[v _TI_ResetTics TI_ResetTics `(v  1 e 1 0 ]
+{
+[v TI_ResetTics@TimerHandle TimerHandle `uc  1 a 1 wreg ]
+[v TI_ResetTics@TimerHandle TimerHandle `uc  1 a 1 wreg ]
+[v TI_ResetTics@TimerHandle TimerHandle `uc  1 a 1 0 ]
+"57
+} 0
+"60
+[v _TI_GetTics TI_GetTics `(ul  1 e 4 0 ]
+{
+[v TI_GetTics@TimerHandle TimerHandle `uc  1 a 1 wreg ]
+"61
+[v TI_GetTics@CopiaTicsActual CopiaTicsActual `ul  1 a 4 8 ]
+"60
+[v TI_GetTics@TimerHandle TimerHandle `uc  1 a 1 wreg ]
+[v TI_GetTics@TimerHandle TimerHandle `uc  1 a 1 12 ]
+"63
+} 0
+"220 C:\Users\LEX\Desktop\P2.X\LcTLCD.c
+[v _CantaIR CantaIR `(v  1 e 1 0 ]
+{
+[v CantaIR@IR IR `uc  1 a 1 wreg ]
+[v CantaIR@IR IR `uc  1 a 1 wreg ]
+[v CantaIR@IR IR `uc  1 a 1 2 ]
+"234
+} 0
+"213
+[v _CantaPartBaixa CantaPartBaixa `(v  1 e 1 0 ]
+{
+[v CantaPartBaixa@c c `uc  1 a 1 wreg ]
+[v CantaPartBaixa@c c `uc  1 a 1 wreg ]
+[v CantaPartBaixa@c c `uc  1 a 1 1 ]
+"218
+} 0
+"206
+[v _CantaPartAlta CantaPartAlta `(v  1 e 1 0 ]
+{
+[v CantaPartAlta@c c `uc  1 a 1 wreg ]
+[v CantaPartAlta@c c `uc  1 a 1 wreg ]
+[v CantaPartAlta@c c `uc  1 a 1 1 ]
+"211
+} 0
+"41 C:\Users\LEX\Desktop\P2.X\main.c
+[v _RSI RSI `IIH(v  1 e 1 0 ]
+{
+"45
+} 0
+"26 C:\Users\LEX\Desktop\P2.X\TAD_TIMER.C
+[v _RSI_Timer0 RSI_Timer0 `(v  1 e 1 0 ]
+{
+"32
+} 0
